@@ -2,11 +2,14 @@ main:
   - title: "Home"
     url: /
 
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
   - title: "Resume"
     url: /files/MichaelShibuResume.pdf
 
   - title: "LinkedIn"
-    url: https://www.linkedin.com/in/michael-shibu-9a3761340/
-
-  - title: "UH CS Dept"
-    url: https://www.cs.uh.edu/
+    url: "https://www.linkedin.com/in/michael-shibu-9a3761340/"
