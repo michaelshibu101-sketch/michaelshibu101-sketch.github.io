@@ -2,12 +2,6 @@ main:
   - title: "Home"
     url: /
 
-  - title: "Teaching"
-    url: /teaching/
-
-  - title: "Portfolio"
-    url: /portfolio/
-
   - title: "Resume"
     url: /files/MichaelShibuResume.pdf
 
