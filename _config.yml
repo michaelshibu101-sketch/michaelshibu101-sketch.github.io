@@ -1,17 +1,17 @@
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Michael Shibu"
 title_separator          : "-"
 name                     : &name "Michael Shibu"
 description              : &description "Michael Shibu's academic portfolio"
-url                      : "https://michaelshibu101-sketch.github.io/"  # your GitHub Pages URL
+url                      : "https://michaelshibu101-sketch.github.io/"
 baseurl                  : ""
 repository               : "michaelshibu101-sketch/michaelshibu101-sketch.github.io"
 
 # Site Author
 author:
-  avatar           : "images/pfp.jpg"  # upload your profile picture here
+  avatar           : "images/pfp.jpg"   # your profile picture
   name             : "Michael Shibu"
   pronouns         : "he/him"
   bio              : "Computer Science student | Aspiring Software Engineer"
@@ -37,12 +37,12 @@ author:
   bitbucket        : 
   codepen          : 
   dribbble         : 
-  github           : "michaelshibu101-sketch"  # your GitHub username
+  github           : "michaelshibu101-sketch"
   kaggle           : 
   stackoverflow    : 
 
   # Social media
-  linkedin         : "https://www.linkedin.com/in/michael-shibu-9a3761340/"  # your LinkedIn URL
+  linkedin         : "https://www.linkedin.com/in/michael-shibu-9a3761340/"
   twitter          : ""  
   facebook         : ""  
   instagram        : ""  
@@ -54,13 +54,16 @@ resume: "files/MichaelShibuResume.pdf"
 analytics:
   provider: "google-analytics-4" 
   google:
-    tracking_id: "G-XXXXXXXXXX"  # replace with your GA4 tracking ID
+    tracking_id: "G-XXXXXXXXXX"  # replace with your GA4 tracking ID when ready
 
 # Include necessary folders
 include:
-  - files
+  - .htaccess
   - _pages
+  - files
 
 # Markdown settings
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
+
+# The rest of the original settings remain the same...
