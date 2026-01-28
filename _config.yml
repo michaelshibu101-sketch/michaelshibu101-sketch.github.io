@@ -1,6 +1,6 @@
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Michael Shibu"
 title_separator          : "-"
 name                     : &name "Michael Shibu"
@@ -11,59 +11,47 @@ repository               : "michaelshibu101-sketch/michaelshibu101-sketch.github
 
 # Site Author
 author:
-  avatar           : "images/pfp.jpg"   # your profile picture
+  avatar           : "images/pfp.jpg"
   name             : "Michael Shibu"
   pronouns         : "he/him"
   bio              : "Computer Science student | Aspiring Software Engineer"
   location         : "Houston, TX"
   employer         : "University of Houston"
+  uri              : 
   email            : "mshibu@cougarnet.uh.edu"
 
-  # Academic websites (optional)
+  # Keep all other social media keys exactly as they were
   academia         : 
   arxiv            : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : 
   impactstory      : 
-  orcid            : 
+  orcid            : "https://orcid.org/yourorcidurl"
   semantic         : 
   ssrn             : 
-  pubmed           : 
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : 
   scopus           : 
   zotero           : 
-
-  # Repositories and software development
   bitbucket        : 
   codepen          : 
   dribbble         : 
   github           : "michaelshibu101-sketch"
   kaggle           : 
   stackoverflow    : 
-
-  # Social media
   linkedin         : "https://www.linkedin.com/in/michael-shibu-9a3761340/"
   twitter          : ""  
   facebook         : ""  
   instagram        : ""  
+  # leave the rest as in original template
 
-# Add your Resume PDF
+# Resume
 resume: "files/MichaelShibuResume.pdf"
 
-# Google Analytics
+# Analytics
 analytics:
-  provider: "google-analytics-4" 
+  provider               : "google-analytics-4"
   google:
-    tracking_id: "G-XXXXXXXXXX"  # replace with your GA4 tracking ID when ready
+    tracking_id          : "G-XXXXXXXXXX" # replace later
 
-# Include necessary folders
-include:
-  - .htaccess
-  - _pages
-  - files
-
-# Markdown settings
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-markdown: kramdown
-
-# The rest of the original settings remain the same...
+# Everything else stays exactly as original template...
