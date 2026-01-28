@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# Configuration file for your Academic Pages site.
+# Config file for site-wide settings
 
 # Basic Site Settings
 locale                   : "en-US"
@@ -21,32 +21,55 @@ author:
   bio              : "Computer Science student | Aspiring Software Engineer"
   location         : "Houston, TX"
   employer         : "University of Houston"
+  uri              : 
   email            : "mshibu@cougarnet.uh.edu"
 
-  # Academic websites (leave blank if none)
+  # Academic websites
+  academia         : 
+  arxiv            : 
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  inspire-hep      : 
+  impactstory      : 
   orcid            : "https://orcid.org/yourorcidurl"
+  semantic         : 
+  ssrn             : 
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  researchgate     : 
+  scopus           : 
+  zotero           : 
+
+  # Repositories and software development
+  bitbucket        : 
+  codepen          : 
+  dribbble         : 
   github           : "michaelshibu101-sketch"
+  kaggle           : 
+  stackoverflow    : 
+
+  # Social media
   linkedin         : "https://www.linkedin.com/in/michael-shibu-9a3761340/"
+  twitter          : ""  
+  instagram        : ""  
+  facebook         : ""  
 
 # Publication Category
 publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
 # Site Settings
+teaser                   :  
 breadcrumbs              : false
 words_per_minute         : 160
 future                   : true
 read_more                : "disabled"
 talkmap_link             : false
 
-# Comments (disabled for assignment)
+# Comments (disabled for simplicity)
 comments:
   provider               : false
 
@@ -54,7 +77,7 @@ comments:
 analytics:
   provider               : "google-analytics-4"
   google:
-    tracking_id          : "G-71QGYYW3N9"   # your GA4 ID
+    tracking_id          : "G-71QGYYW3N9"
 
 # Reading Files
 include:
@@ -70,14 +93,29 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - CHANGELOG
+  - Capfile
+  - config
   - Dockerfile
   - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
   - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
+
 keep_files:
   - .git
-
-# Markdown
+  - .svn
+encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -100,28 +138,12 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
-  publications:
-    output: true
-    permalink: /:collection/:path/
   portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
 # Defaults
 defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: true
-      related: true
   - scope:
       path: ""
       type: pages
@@ -135,15 +157,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: false
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: false
+      comments: true
   - scope:
       path: ""
       type: portfolio
@@ -151,22 +165,13 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: false
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-      comments: false
 
 # Sass/SCSS
 sass:
   sass_dir: _sass
   style: compressed
 
-# Output
+# Outputting
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
@@ -174,7 +179,6 @@ timezone: Etc/UTC
 plugins:
   - jekyll-feed
   - jekyll-gist
-  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
   - jemoji
