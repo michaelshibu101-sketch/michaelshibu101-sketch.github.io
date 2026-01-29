@@ -30,10 +30,10 @@ author:
   
   inspire-hep      : 
   impactstory      : 
-  orcid            : "https://orcid.org/yourorcidurl"
+  
   semantic         : 
   ssrn             : 
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+ 
   researchgate     : 
   scopus           : 
   zotero           : 
@@ -48,10 +48,7 @@ author:
 
   # Social media
   linkedin         : "https://www.linkedin.com/in/michael-shibu-9a3761340/"
-  twitter          : ""  
-  instagram        : ""  
-  facebook         : ""  
-
+ 
 # Publication Category
 publication_category:
   books:
