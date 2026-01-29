@@ -31,7 +31,7 @@ Houston, TX
 
 ## Resume
 
-[Download my resume (PDF)](/files/MichaelShibuResume.pdf)
+[Download my resume (PDF)](/files/MichaelShibuResumeNew.pdf)
 
 ---
 
