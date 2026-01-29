@@ -15,7 +15,7 @@ repository               : "michaelshibu101-sketch/michaelshibu101-sketch.github
 
 # Site Author
 author:
-  avatar           : "/images/themes/pfp.jpg"
+  avatar           : "https://michaelshibu101-sketch.github.io/images/pfp.jpg"
   name             : "Michael Shibu"
   pronouns         : "he/him"
   bio              : "Computer Science student | Aspiring Software Engineer"
