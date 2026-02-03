@@ -4,7 +4,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "mint"
 title                    : "Michael Shibu"
 title_separator          : "-"
 name                     : &name "Michael Shibu"
