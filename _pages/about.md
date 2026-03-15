@@ -96,13 +96,23 @@ https://homiesmuseum.site
 
 ---
 
-## Links
+---
 
-University of Houston – Computer Science Department  
-https://www.cs.uh.edu
+## Work Experience
 
-LinkedIn  
-https://www.linkedin.com/in/michael-shibu-9a3761340/
+### Outlier AI — AI Efficiency Trainer / Prompt Engineer  
+Oct. 2025 – Present (Contract)
+
+- Trained large language models (LLMs) to improve computational accuracy, data relevance, and contextual output in analytical domains  
+- Evaluated model responses and optimized prompts to improve AI performance in business-related tasks  
+- Contributed to improving AI-driven business applications through structured prompt engineering and analysis  
+
+### University of Houston — Intramurals Referee  
+Sep. 2025 – Present
+
+- Officiate basketball, soccer, and volleyball games for intramural tournaments  
+- Enforce game rules and ensure fair play during competitions  
+- Manage fast-paced game environments and resolve disputes between players when needed  
 
 ---
 
