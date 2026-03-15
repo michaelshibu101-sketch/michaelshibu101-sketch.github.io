@@ -23,9 +23,14 @@ Houston, TX
 
 ## Skills
 
-- Programming Languages: C++, Python, Java  
-- Tools: Git, GitHub, Linux  
-- Concepts: Data Structures, Algorithms, Object-Oriented Programming
+-Data & Analytics: SQL(MySQL), Data Modeling, Data Cleaning, Query Writing, Data Analysis
+-Programming languages: Python, C++, JavaScript
+-Tools: Git, Github, REST APIs,
+-Database: Oracle, SQL Server, GitHub
+-Reporting Tools: MS Excell, Power BI
+-Relevant Coursework: Database Management, Big Data Analytics, Distributed Systems, Cloud Computing, Data Structures & Algorithms, Fund. AI
+intelligence, Operation Systems, Software Design
+
 
 ---
 
