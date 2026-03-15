@@ -102,4 +102,5 @@ ______________________________________________________________________
 
 ## Contact
 
-Email: mshibu@cougarnet.uh.edu
+Email: michaelshibu101@gmail.com
+phone: 832-349-2317
